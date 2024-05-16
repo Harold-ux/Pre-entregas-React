@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import men_banner from "./Components/Assets/banner_mens.png";
 import women_banner from "./Components/Assets/banner_women.png";
 import kid_banner from "./Components/Assets/banner_kids.png";
+import Comenta from "./Comenta/Comenta";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/CartWidget" element={<CartWidget />} />
             <Route path="/login" element={<LoginSignUp />} />
           </Routes>
+          <Comenta />
           <Footer />
         </BrowserRouter>
       </div>

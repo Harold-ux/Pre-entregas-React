@@ -1,3 +1,7 @@
+.shop-category{
+    height: 330vh;
+}
+
 .shopcategory-banner{
     display: block;
     margin: 30px auto;
@@ -26,21 +30,30 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 50px;
-    transform: scale(0.75) translateY(-10%);
+    transform: scale(0.75) translateY(-14%);
 }
 
-.shopcategory-loadmore{
+.shopcategory-loadmore {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 150px auto;
+    margin: 0 auto;
     width: 155px;
     height: 55px;
     border-radius: 75px;
     background: #ededed;
     color: #787878;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     cursor: pointer;
-    transform: translateY(-100%);
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
+
+
+.loadmore-container{
+    padding-bottom: 250px;
+}
+
+

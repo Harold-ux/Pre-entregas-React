@@ -60,9 +60,11 @@ const ShopCategory = (props) => {
           ))}
       </div>
       {!showMore && (
+        <div className="loadmore-container">
         <button onClick={handleShowMore} className="shopcategory-loadmore">
           Explore más
         </button>
+        </div>
       )}
     </div>
   );

@@ -1,6 +1,6 @@
 .newsletter {
     width: 62%;
-    height: 35vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     margin: auto;
     padding: 60px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    background: linear-gradient(180deg, #f8f8f8 10%, #e1ffea22 80%);
     gap: 30px;
 }
 
